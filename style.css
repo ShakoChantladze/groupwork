@@ -1,0 +1,50 @@
+section{
+    display: inline-block;
+}
+h1 { 
+    font-family: "Main font";
+    color: white;
+    padding-top: 64px;
+    padding-left: 98px;
+    width: 262px;
+    height: 38px;
+  }
+h2{
+    font-family: "Main font";
+    color: #515151;
+}
+h3 {
+    font-family: "Maint font";
+    color: #333333;
+    font-family: "Main font";
+    text-decoration: none;
+    padding-left: 44px;
+}
+.left{
+    width: 400px;
+    height: 900px;
+    background-color: #2f80ed;
+}
+.statistics-div{
+    margin-left: 40px;
+    display: inline-block;
+}
+p{
+    font-family: "Main font";
+    padding-top: 36px;
+    padding-right: 58px;
+    padding-bottom: 60px;
+    padding-left: 69px;
+    display: inline-block;
+    color: white;
+    background-color: #333333;
+    border-radius: 25px;
+}
+table{
+    font-family: "Main font";
+    color: #4F4F4F;
+    background-color: #FFFFFF;
+}
+td{
+    #4F4F4F
+}
