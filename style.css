@@ -20,26 +20,34 @@
     font-size: 24px;
  }
  .registration-main{
-    position: absolute;
-    margin-top: 249px;
+    list-style-type: none;
+    position: fixed;
+    margin-top: 264px;
     margin-left: 44px;
-    
-
- }
- .sin-up{
-    width: 300px;
-    height: 60px;
-    color: #333;
-
- }
- .Log-in{
-    width: 300px;
-    height: 60px;
-    color:#333;  
  }
  .registration-main p{
-    border-radius: 0;
+        font-family: "Main font";
+        padding-top: 10px;
+        padding-right: 58px;
+        padding-bottom:6px;
+        padding-left: 60px;
+        display: inline-block;
+        color: white;
+        background-color: #333333;
+        border-radius: 0px;
  }
+ .sign-up{
+    width:300px;
+    height: 40px;
+    color:  #333;
+ }
+
+.log-in{
+    width: 300px;
+    height: 40px;
+    color:  #333; 
+    padding-top: 20px;
+}
 
 
 
