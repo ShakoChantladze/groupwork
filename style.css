@@ -1,3 +1,78 @@
+
+.large{
+    width: 400px;
+    height: 900px;
+    background-color: #2f80ed;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+ .simple{
+    vertical-align: auto;
+ }
+ .chart{
+    padding-top: 100px;
+    padding-left: 50px;
+ }
+ .study{
+    position: absolute;  
+    font-weight: 700px; 
+    font-size: 24px;
+ }
+ .registration-main{
+    position: absolute;
+    margin-top: 249px;
+    margin-left: 44px;
+    
+
+ }
+ .sin-up{
+    width: 300px;
+    height: 60px;
+    color: #333;
+
+ }
+ .Log-in{
+    width: 300px;
+    height: 60px;
+    color:#333;  
+ }
+ .registration-main p{
+    border-radius: 0;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 section{
     display: inline-block;
 }
@@ -24,10 +99,12 @@ h3 {
     width: 400px;
     height: 900px;
     background-color: #2f80ed;
+
 }
 .statistics-div{
     margin-left: 40px;
     display: inline-block;
+
 }
 p{
     font-family: "Main font";
