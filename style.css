@@ -1,3 +1,119 @@
+
+.large{
+    width: 400px;
+    height: 900px;
+    background-color: #2f80ed;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+ .simple{
+    vertical-align: auto;
+ }
+ .chart{
+    padding-top: 100px;
+    padding-left: 50px;
+    position: fixed;
+ }
+ .study{
+    position: absolute;  
+    font-weight: 700px; 
+    font-size: 24px;
+    top: 20px;
+    position: fixed;
+ }
+ .registration-main{
+    list-style-type: none;
+    position: absolute;
+    top: 200px;
+    left: 90px;
+    position: fixed;
+ }
+ .registration-main p{
+        font-family: "Main font";
+        padding-top: 10px;
+        padding-right: 58px;
+        padding-bottom:6px;
+        padding-left: 60px;
+        display: inline-block;
+        color: white;
+        background-color: #333333;
+        border-radius: 0px;
+ }
+ .sign-up{
+
+    width:300px;
+    height: 40px;
+    color:  #333;
+    position: relative;
+ }
+
+.log-in{
+    width: 300px;
+    height: 40px;
+    color:  #333; 
+    padding-top: 20px;
+    position: relative;
+}
+.second-section{
+    margin-left: 800px;
+}
+.second-section h2{
+    font-family: "Main font";
+    color: #4F4F4F; 
+    font-weight: 400px;
+    font-size: 26px;
+}
+
+.section-img{
+    margin-left: 350px;
+    margin-top: 50px;
+    width: 300px;
+    height: 300px;
+}
+
+
+.bottom-text h3{
+    font-family: "Main font";
+    color: #4F4F4F; 
+    font-weight: 400px;
+    font-size: 26px;
+    margin-left:400px;
+    margin-top: 300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 section{
     display: inline-block;
 }
@@ -41,14 +157,12 @@ h4 {
     width: 400px;
     height: 900px;
     background-color: #2f80ed;
-    position: fixed;
-    top:0;
-    left:0;
 }
 .statistics-div{
     margin-top: 23px;
     margin-right: 42px;
     display: inline-block;
+
 }
 p{
     font-family: "Main font";
@@ -70,9 +184,5 @@ table{
     background-color: #FFFFFF;
 }
 td{
-    padding-left: 39px;
-    border-collapse: collapse;
-    height: 35px;
-    border: 1px solid;
-    color: #4F4F4F;
+    #4F4F4F
 }
