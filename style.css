@@ -1,188 +1,102 @@
-
-.large{
-    width: 400px;
-    height: 900px;
-    background-color: #2f80ed;
-    position: fixed;
-    top: 0;
-    left: 0;
-}
- .simple{
-    vertical-align: auto;
- }
- .chart{
-    padding-top: 100px;
-    padding-left: 50px;
-    position: fixed;
- }
- .study{
-    position: absolute;  
-    font-weight: 700px; 
-    font-size: 24px;
-    top: 20px;
-    position: fixed;
- }
- .registration-main{
-    list-style-type: none;
-    position: absolute;
-    top: 200px;
-    left: 90px;
-    position: fixed;
- }
- .registration-main p{
-        font-family: "Main font";
-        padding-top: 10px;
-        padding-right: 58px;
-        padding-bottom:6px;
-        padding-left: 60px;
-        display: inline-block;
-        color: white;
-        background-color: #333333;
-        border-radius: 0px;
- }
- .sign-up{
-
-    width:300px;
-    height: 40px;
-    color:  #333;
-    position: relative;
- }
-
-.log-in{
-    width: 300px;
-    height: 40px;
-    color:  #333; 
-    padding-top: 20px;
-    position: relative;
-}
-.second-section{
-    margin-left: 800px;
-}
-.second-section h2{
-    font-family: "Main font";
-    color: #4F4F4F; 
-    font-weight: 400px;
-    font-size: 26px;
+body{
+    background: linear-gradient(to right, #2F80ED 23.3%, transparent 23.3%);
+    height: 100vh;
+    margin: 0;
 }
 
-.section-img{
-    margin-left: 350px;
-    margin-top: 50px;
-    width: 300px;
-    height: 300px;
-}
-
-
-.bottom-text h3{
-    font-family: "Main font";
-    color: #4F4F4F; 
-    font-weight: 400px;
-    font-size: 26px;
-    margin-left:400px;
-    margin-top: 300px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-section{
-    display: inline-block;
-}
-.section-2{
-    position: fixed;
-    left: 473px;
-}
-h1 { 
-    font-family: "Main font";
-    color: white;
-    padding-top: 64px;
-    padding-left: 98px;
-    width: 262px;
+.logo-1{
+    width: 38px;
     height: 38px;
-  }
+    margin-left: 44px;
+    margin-top: 56px;
+}
 h2{
-    margin-top: 65px;
-    font-family: "Main font";
-    color: #515151;
+    font-family: poppins;
+    position: relative;
+    text-align: center;
+    bottom: 100px;
+    right: 250px;
 }
-.first-h3{
-    padding-top: 157px;
-    padding-left: 67px;
+.logo-wrapper{
+   position: relative;
 }
-.second-h3{
-    padding-top: 44px;
-    padding-left: 67px;
+.logo-text{
+    color: white;
+    position: relative;
+    left: 100px;
+    bottom: 65px
 }
-.fourth-h3{
-    padding-top: 350px;
-    padding-left: 67px;
+ul{
+    list-style: none;
+    width: 156px;
+    height: 16px;
+    margin-left: 100px;
+    margin-top: 100px;
+    padding: 0;
 }
-h4 {
-    font-family: "Maint font";
-    color: #333333;
+a{
     font-family: "Main font";
     text-decoration: none;
-    margin-top: 36px;
-}
-.left-side{
-    width: 400px;
-    height: 900px;
-    background-color: #2f80ed;
-}
-.statistics-div{
-    margin-top: 23px;
-    margin-right: 42px;
-    display: inline-block;
-
-}
-p{
-    font-family: "Main font";
-    padding-top: 36px;
-    padding-right: 58px;
-    padding-bottom: 60px;
-    padding-left: 69px;
-    display: inline-block;
     color: white;
-    background-color: #333333;
-    border-radius: 25px;
 }
-table{
+.dashboard-photo{
+    position: relative;
+    top: 130px;
+    left: 50px;
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+}
+.settings-photo{
+    position: relative;
+    top: 174px;
+    left: 23px;
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+}
+ul li a {
+    font-size: 25px;
+}
+.settings-text{
+    margin-top: 15px;
+}
+.logout-image{
+    position: relative;
+    left: 50px;
+    top: -430px;
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+}
+.logout-text{
+    position: relative;
+    top: -560px;
+}
+.form-container {
+    position: relative;
+    bottom: 500px;
+    right: 175px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+label {
+    margin: 1px;
+    text-align: center;
+}
+input{
+    margin-bottom: 15px;
+}
+.form-group input {
     width: 100%;
-    border: 1px solid;
-    border-collapse: collapse;
-    font-family: "Main font";
-    color: #4F4F4F;
-    background-color: #FFFFFF;
+    padding: 25px; 
+    box-sizing: border-box;
+    font-size: 16px;
 }
-td{
-    #4F4F4F
+.form-group{
+    margin-bottom: 25px;
+    position: relative;
 }
