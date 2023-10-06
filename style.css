@@ -1,6 +1,10 @@
 section{
     display: inline-block;
 }
+.section-2{
+    position: fixed;
+    left: 473px;
+}
 h1 { 
     font-family: "Main font";
     color: white;
@@ -10,23 +14,40 @@ h1 {
     height: 38px;
   }
 h2{
+    margin-top: 65px;
     font-family: "Main font";
     color: #515151;
 }
-h3 {
+.first-h3{
+    padding-top: 157px;
+    padding-left: 67px;
+}
+.second-h3{
+    padding-top: 44px;
+    padding-left: 67px;
+}
+.fourth-h3{
+    padding-top: 350px;
+    padding-left: 67px;
+}
+h4 {
     font-family: "Maint font";
     color: #333333;
     font-family: "Main font";
     text-decoration: none;
-    padding-left: 44px;
+    margin-top: 36px;
 }
-.left{
+.left-side{
     width: 400px;
     height: 900px;
     background-color: #2f80ed;
+    position: fixed;
+    top:0;
+    left:0;
 }
 .statistics-div{
-    margin-left: 40px;
+    margin-top: 23px;
+    margin-right: 42px;
     display: inline-block;
 }
 p{
@@ -41,10 +62,17 @@ p{
     border-radius: 25px;
 }
 table{
+    width: 100%;
+    border: 1px solid;
+    border-collapse: collapse;
     font-family: "Main font";
     color: #4F4F4F;
     background-color: #FFFFFF;
 }
 td{
-    #4F4F4F
+    padding-left: 39px;
+    border-collapse: collapse;
+    height: 35px;
+    border: 1px solid;
+    color: #4F4F4F;
 }
